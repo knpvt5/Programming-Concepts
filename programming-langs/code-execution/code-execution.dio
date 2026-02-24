@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="JYpJkjEA8CzMzi58WEsc" name="Page-1">
-        <mxGraphModel dx="1997" dy="1832" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+        <mxGraphModel dx="1806" dy="1710" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -160,6 +160,12 @@
                     <mxGeometry x="30" y="1150" width="420" height="70" as="geometry"/>
                 </mxCell>
                 <mxCell id="39" value="1." style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="38" vertex="1">
+                    <mxGeometry y="30" width="420" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="83" value="more" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="252" y="1370" width="420" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="84" value="1.transactions: - if all the code runs successfull then good, but even if a single transaction fails, rollback all the transactions" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="83">
                     <mxGeometry y="30" width="420" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="42" value="info" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
