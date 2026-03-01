@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="YBBXJUz_MDR9ArLcIa2x" name="Page-1">
-        <mxGraphModel dx="2170" dy="2038" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="2284" dy="2015" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -39,12 +39,6 @@
                 </mxCell>
                 <mxCell id="208" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/svg+xml,PHN2ZyB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWw6c3BhY2U9InByZXNlcnZlIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA5OTEuOCAxNTcuMzsiIHZpZXdCb3g9IjAgMCA5OTEuOCAxNTcuMyIgeT0iMHB4IiB4PSIwcHgiIGlkPSJMYXllcl8xIiB2ZXJzaW9uPSIxLjEiPgogICAgPHN0eWxlIHR5cGU9InRleHQvY3NzIj4KCS5zdDB7ZmlsbDojRjVCMjFCO30KCS5zdDF7ZmlsbDojMjgzMjcyO30KICAgIDwvc3R5bGU+CiAgICA8Zz4KICAgICAgICA8Zz4KICAgICAgICAgICAgPHBhdGggZD0iTTg4LDQ5LjJjMCwyMi45LTEzLjksNDMuNi00MC45LDQ4LjVsMzguMSw0NWwzLjQtNC44bDY4LjYtOTdWMEg0NS43Qzc0LjEsMi44LDg4LDI2LjMsODgsNDkuMnoiIGNsYXNzPSJzdDAiLz4KICAgICAgICAgICAgPHBhdGggZD0iTTkuNyw3Ni45SDM2YzE5LjQsMCwyOS4xLTEzLjgsMjkuMS0yNy43YzAtMTMuOS05LjctMjctMjkuMS0yN0gwdjEzNS4xaDY3LjJMOS43LDg4Vjc2Ljl6IE0xMDcuNCwxNTAuMyAgICBsNTAuNi03MC43djc3LjZoLTU1LjZMMTA3LjQsMTUwLjN6IiBjbGFzcz0ic3QxIi8+CiAgICAgICAgICAgIDxyZWN0IGhlaWdodD0iMTA3LjQiIHdpZHRoPSIyMi45IiBjbGFzcz0ic3QxIiB5PSIyNi4zIiB4PSIzODguNyIvPgogICAgICAgICAgICA8cGF0aCBkPSJNNTQ3LjgsMTEwLjJsLTExOS0wLjF2MjMuNmgxMTkuOWM5LDAsMTYuNi0zLjUsMjIuOS05LjdjNi4yLTYuMiw5LjctMTMuOSw5LjctMjIuOXMtMy41LTE2LjYtOS43LTIyLjkgICAgYy02LjItNi4yLTEzLjktOS43LTIyLjktOS43TDQ2MS41LDY4Yy01LjEsMC05LjMtNC4yLTkuMy05LjN2MHYwYzAtNS4yLDQuMi05LjMsOS40LTkuM2wxMTkuNy0wLjFWMjYuM0g0NjEuNCAgICBjLTksMC0xNi42LDMuNS0yMi45LDkuN2MtNi4yLDYuMi05LjcsMTMuOS05LjcsMjIuOWMwLDksMy41LDE2LjYsOS43LDIyLjljNi4yLDYuMiwxMy44LDksMjIuOSw5bDg3LjEsMGM1LjIsMCw5LjQsNC4yLDkuMyw5LjR2MCAgICB2MEM1NTcuOSwxMDUuNyw1NTMuNCwxMTAuMiw1NDcuOCwxMTAuMnoiIGNsYXNzPSJzdDEiLz4KICAgICAgICAgICAgPHBhdGggZD0iTTY0NS43LDI2LjNoOTkuMXYyMi45aC05OS4xYy04LjMsMC0xNS4yLDIuNy0yMS41LDljLTYuMiw2LjItOSwxMy4yLTksMjEuNWMwLDguMywyLjgsMTUuMiw5LDIxLjUgICAgYzYuMyw2LjIsMTMuMiw5LDIxLjUsOWg5OS4xbDAsMjMuNmgtOTljLTE0LjUsMC0yNy4xLTUuNi0zNy41LTE2Yy0xMC40LTEwLjQtMTUuMi0yMi45LTE1LjItMzcuNGMwLTE0LjUsNC44LTI3LDE1LjItMzcuNCAgICBDNjE4LjcsMzEuOSw2MzEuMiwyNi4zLDY0NS43LDI2LjN6IiBjbGFzcz0ic3QxIi8+CiAgICAgICAgICAgIDxwYXRoIGQ9Ik0zMzguMSw2OS41bC05NS42LTAuMlY0OS45bDk2LjYtMC4yYzUuMiwwLDkuNCw0LjIsOS41LDkuNHYwdjBDMzQ4LjUsNjQuOCwzNDMuOCw2OS41LDMzOC4xLDY5LjV6ICAgICBNMzcyLjEsMTMzLjdsLTMwLjUtNDIuM2M4LjMtMC43LDE1LjItMy41LDIwLjgtOS43YzYuMi02LjMsOS43LTEzLjksOS43LTIyLjljMC05LTMuNS0xNi42LTkuNy0yMi45cy0xMy45LTkuNy0yMi45LTkuN0gyMTkuNiAgICBsMCwxMDcuNGgyMi45bDAtNDIuM2g3MC43bDMwLjUsNDIuM0gzNzIuMXoiIGNsYXNzPSJzdDEiLz4KICAgICAgICAgICAgPHBvbHlsaW5lIHBvaW50cz0iODU5LjEsMTMzLjcgNzk2LjMsMjYuMyA4MjMuMiwyNi4zIDg3Mi4zLDExMS41IDkyMS4zLDI2LjMgOTQ3LjgsMjYuMyA4ODUuNCwxMzMuNyIgY2xhc3M9InN0MCIvPgogICAgICAgICAgICA8cmVjdCBoZWlnaHQ9IjIwLjgiIHdpZHRoPSI0NSIgY2xhc3M9InN0MCIgeT0iNzAiIHg9Ijc1OC43Ii8+CiAgICAgICAgPC9nPgogICAgICAgIDxnPgogICAgICAgICAgICA8cGF0aCBkPSJNOTkxLjgsNDMuNGMwLDkuMy03LjMsMTYuNy0xNi45LDE2LjdjLTkuNCwwLTE3LTcuMy0xNy0xNi43YzAtOS4xLDcuNS0xNi41LDE3LTE2LjUgICAgQzk4NC40LDI3LDk5MS44LDM0LjMsOTkxLjgsNDMuNHogTTk2Mi4xLDQzLjRjMCw3LjMsNS40LDEzLjIsMTIuOSwxMy4yYzcuMiwwLDEyLjYtNS44LDEyLjYtMTMuMWMwLTcuMy01LjMtMTMuMy0xMi43LTEzLjMgICAgQzk2Ny41LDMwLjMsOTYyLjEsMzYuMiw5NjIuMSw0My40eiBNOTcyLjMsNTIuMWgtMy44VjM1LjZjMS41LTAuMywzLjYtMC41LDYuMy0wLjVjMy4xLDAsNC41LDAuNSw1LjcsMS4yYzAuOSwwLjcsMS42LDIsMS42LDMuNiAgICBjMCwxLjgtMS40LDMuMi0zLjQsMy44VjQ0YzEuNiwwLjYsMi41LDEuOCwzLDRjMC41LDIuNSwwLjgsMy41LDEuMiw0LjFoLTQuMWMtMC41LTAuNi0wLjgtMi4xLTEuMy00Yy0wLjMtMS44LTEuMy0yLjYtMy40LTIuNiAgICBoLTEuOFY1Mi4xeiBNOTcyLjQsNDIuN2gxLjhjMi4xLDAsMy44LTAuNywzLjgtMi40YzAtMS41LTEuMS0yLjUtMy41LTIuNWMtMSwwLTEuNywwLjEtMi4xLDAuMlY0Mi43eiIgY2xhc3M9InN0MSIvPgogICAgICAgIDwvZz4KICAgIDwvZz4KPC9zdmc+;" parent="186" vertex="1">
                     <mxGeometry x="22.950000000000045" y="116" width="120.05" height="19" as="geometry"/>
-                </mxCell>
-                <mxCell id="225" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;flowAnimation=1;" parent="1" source="78" target="221" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="78" value="&lt;b&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;Instruction set architectures (ISAs)&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" parent="1" vertex="1">
-                    <mxGeometry x="380" y="-240" width="300" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="184" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;flowAnimation=1;" parent="1" source="183" target="5" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
@@ -222,20 +216,23 @@
                 <mxCell id="276" value="2.&amp;nbsp;Windows driver ≠ Linux driver" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="274" vertex="1">
                     <mxGeometry y="60" width="230" height="40" as="geometry"/>
                 </mxCell>
+                <mxCell id="298" value="&lt;b style=&quot;scrollbar-color: rgb(75, 75, 75) rgb(27, 29, 30);&quot;&gt;&lt;font style=&quot;scrollbar-color: rgb(75, 75, 75) rgb(27, 29, 30); font-size: 17px; color: light-dark(rgb(192, 192, 192), rgb(255, 255, 255));&quot;&gt;Instruction set architectures (ISAs)&lt;/font&gt;&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+                    <mxGeometry x="450" y="-240" width="360" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="299" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;An &lt;strong&gt;Instruction Set Architecture (ISA)&lt;/strong&gt; is the interface between software and hardware — it defines the set of instructions a processor can execute and how software communicates with it.&lt;/font&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="298">
+                    <mxGeometry y="40" width="360" height="70" as="geometry"/>
+                </mxCell>
                 <mxCell id="206" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;flowAnimation=1;" parent="1" source="5" target="199" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="207" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;flowAnimation=1;" parent="1" source="187" target="193" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="223" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;flowAnimation=1;" parent="1" source="221" target="183" edge="1">
+                <mxCell id="223" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=0.1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;flowAnimation=1;exitPerimeter=0;" parent="1" source="279" target="183" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="224" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;flowAnimation=1;" parent="1" source="221" target="185" edge="1">
+                <mxCell id="224" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.994;exitY=0.12;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;flowAnimation=1;exitPerimeter=0;" parent="1" source="279" target="185" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="221" value="&lt;p style=&quot;white-space-collapse: preserve;&quot; dir=&quot;auto&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;it defines how &lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(102, 0, 102));&quot;&gt;software controls&lt;/span&gt;&lt;span&gt; &lt;/span&gt;the CPU (Central Processing Unit) at the &lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(153, 0, 153));&quot;&gt;machine level.&lt;/span&gt; It&#39;s essentially the &quot;&lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(153, 0, 77));&quot;&gt;blueprint&lt;/span&gt;&quot; or interface between the hardware (the physical processor) and the software (programs and operating systems)&lt;/font&gt;&lt;/p&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="380" y="-120" width="300" height="150" as="geometry"/>
                 </mxCell>
                 <mxCell id="272" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;entryX=-0.005;entryY=0.146;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;width=3.5294117647058822;startSize=1.8411764705882352;startWidth=4.3944636678200695;endWidth=4.3944636678200695;endSize=2.9411764705882355;edgeStyle=orthogonalEdgeStyle;shadow=0;flowAnimation=1;" parent="1" source="5" target="274" edge="1">
                     <mxGeometry width="100" height="100" relative="1" as="geometry">
@@ -254,7 +251,7 @@
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="279" value="API" style="swimlane;childLayout=stackLayout;horizontal=1;fillColor=#fa6800;horizontalStack=1;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;strokeColor=#C73500;stackBorder=10;stackSpacing=-12;resizable=1;align=center;points=[];whiteSpace=wrap;html=1;fontColor=#000000;" parent="1" vertex="1">
-                    <mxGeometry x="356" y="90" width="486" height="100" as="geometry"/>
+                    <mxGeometry x="364" width="486" height="100" as="geometry"/>
                 </mxCell>
                 <mxCell id="280" value="Hardware" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];whiteSpace=wrap;html=1;" parent="279" vertex="1">
                     <mxGeometry x="10" y="33" width="100" height="57" as="geometry"/>
