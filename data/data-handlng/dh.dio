@@ -1,13 +1,13 @@
 <mxfile host="65bd71144e">
     <diagram id="-etbyuR156J0DlznF7RI" name="Page-1">
-        <mxGraphModel dx="1997" dy="732" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+        <mxGraphModel dx="2236" dy="732" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
                 <mxCell id="4" value="" style="group" parent="1" vertex="1" connectable="0">
                     <mxGeometry x="365" y="200" width="120" height="110" as="geometry"/>
                 </mxCell>
-                <mxCell id="28" style="edgeStyle=none;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="4" source="3">
+                <mxCell id="28" style="edgeStyle=none;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;" parent="4" source="3" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="-165" y="-50" as="targetPoint"/>
                     </mxGeometry>
@@ -58,10 +58,13 @@
                     <mxGeometry y="30" width="280" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="20" value="why" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-                    <mxGeometry x="-110" y="590" width="270" height="60" as="geometry"/>
+                    <mxGeometry x="-110" y="590" width="270" height="130" as="geometry"/>
                 </mxCell>
-                <mxCell id="27" value="High availability" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="20">
+                <mxCell id="27" value="High availability" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="20" vertex="1">
                     <mxGeometry y="30" width="270" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="Replica sets are for &lt;strong&gt;high availability&lt;/strong&gt;, NOT for protection against accidental drops. For that you need &lt;strong&gt;backups (&lt;code class=&quot;bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]&quot;&gt;mongodump&lt;/code&gt;)&lt;/strong&gt;." style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="20">
+                    <mxGeometry y="60" width="270" height="70" as="geometry"/>
                 </mxCell>
                 <mxCell id="23" value="why" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
                     <mxGeometry x="730" y="620" width="270" height="60" as="geometry"/>
