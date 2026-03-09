@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="a4ZQnjgGoJdm-hiDk6y9" name="Page-1">
-        <mxGraphModel dx="1806" dy="1605" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+        <mxGraphModel dx="2481" dy="1961" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -44,9 +44,12 @@
                 <mxCell id="14" value="1. Client help us communiate(perform CRUD operation) with database server" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="13" vertex="1">
                     <mxGeometry y="30" width="345" height="40" as="geometry"/>
                 </mxCell>
+                <mxCell id="183" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;flowAnimation=0;" edge="1" parent="1" source="45" target="143">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
                 <mxCell id="45" value="connection btw client and server" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;" parent="1" vertex="1">
                     <mxGeometry x="300" y="730" width="370" height="330" as="geometry">
-                        <mxRectangle x="385" y="650" width="130" height="30" as="alternateBounds"/>
+                        <mxRectangle x="300" y="730" width="130" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="77" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;1. connect server and close connection&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;(TCP connection A stateful, persistent TCP connection using the MongoDB wire protocol)&lt;/font&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="45" vertex="1">
@@ -65,22 +68,22 @@
                     <mxGeometry y="290" width="370" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="143" value="events" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;" parent="1" vertex="1">
-                    <mxGeometry x="-21.25" y="1220" width="370" height="150" as="geometry">
+                    <mxGeometry x="300" y="1220" width="370" height="110" as="geometry">
                         <mxRectangle x="385" y="650" width="130" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="144" value="&lt;div&gt;connect or disconnect&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="143" vertex="1">
                     <mxGeometry y="30" width="370" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="145" value="&lt;p data-pm-slice=&quot;0 0 []&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="143" vertex="1">
-                    <mxGeometry y="70" width="370" height="80" as="geometry"/>
+                <mxCell id="174" value="open or close" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="143">
+                    <mxGeometry y="70" width="370" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="39" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;flowAnimation=1;" parent="1" source="17" target="40" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="950" y="835" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="158" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;One server can&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;have multiple&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;databases&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="39">
+                <mxCell id="158" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;One server can&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;have multiple&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;databases&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="39" vertex="1" connectable="0">
                     <mxGeometry x="-0.0597" y="2" relative="1" as="geometry">
                         <mxPoint x="-1" as="offset"/>
                     </mxGeometry>
@@ -98,18 +101,18 @@
                 <mxCell id="79" value="see to which server we are connected to" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="17" vertex="1">
                     <mxGeometry y="30" width="334" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="157" value="Limited users will have the &lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(0, 127, 255));&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;access&lt;/font&gt;&lt;/span&gt; to specific resources like clustors&amp;nbsp;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="17">
+                <mxCell id="157" value="Limited users will have the &lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(0, 127, 255));&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;access&lt;/font&gt;&lt;/span&gt; to specific resources like clustors&amp;nbsp;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="17" vertex="1">
                     <mxGeometry y="60" width="334" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="44" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;flowAnimation=1;" parent="1" source="40" target="42" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="159" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;One database&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;can have&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;multiple tables/&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;collections&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="44">
+                <mxCell id="159" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;One database&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;can have&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;multiple tables/&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;collections&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="44" vertex="1" connectable="0">
                     <mxGeometry x="-0.251" y="-1" relative="1" as="geometry">
                         <mxPoint x="19" y="19" as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="151" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;flowAnimation=1;" edge="1" parent="1" source="155" target="99">
+                <mxCell id="151" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;flowAnimation=1;" parent="1" source="155" target="99" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="40" value="Multples Database" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;" parent="1" vertex="1">
@@ -117,7 +120,7 @@
                         <mxRectangle x="760" y="690" width="130" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="41" value="" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="40" vertex="1">
+                <mxCell id="41" value="Mostly database with same name, even with case-sensitive is not premitted" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="40" vertex="1">
                     <mxGeometry y="30" width="370" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="90" value="CRUD operations on Databases ⬇️" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="40" vertex="1">
@@ -126,37 +129,42 @@
                 <mxCell id="105" value="&lt;ol&gt;&lt;li&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Create Databases&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;see all the database in a server and switch between databases&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Rename databases (if possible)&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Delete database&lt;/font&gt;&lt;/li&gt;&lt;/ol&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="40" vertex="1">
                     <mxGeometry y="100" width="370" height="120" as="geometry"/>
                 </mxCell>
-                <mxCell id="155" value="A user may have full or limited, CURD &lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(0, 127, 255));&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;permissions&lt;/font&gt;&lt;/span&gt; on specific database" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="40">
+                <mxCell id="155" value="A user may have full or limited, CURD &lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(0, 127, 255));&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;permissions&lt;/font&gt;&lt;/span&gt; on specific database" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="40" vertex="1">
                     <mxGeometry y="220" width="370" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="121" value="Databases Error codes" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
-                    <mxGeometry x="-150" y="1890" width="370" height="110" as="geometry">
+                    <mxGeometry x="-160" y="1900" width="420" height="110" as="geometry">
                         <mxRectangle x="760" y="690" width="130" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="122" value="We have different status code for databases Error like: -&amp;nbsp;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="121" vertex="1">
-                    <mxGeometry y="30" width="370" height="40" as="geometry"/>
+                    <mxGeometry y="30" width="420" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="125" value="121 for validation error,&amp;nbsp;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="121" vertex="1">
-                    <mxGeometry y="70" width="370" height="40" as="geometry"/>
+                    <mxGeometry y="70" width="420" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="51" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;flowAnimation=1;" parent="1" source="42" target="49" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="160" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;A table/collectioin&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;obviously contains&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;a lot of data&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="51">
+                <mxCell id="160" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;A table/collectioin&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;obviously contains&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;a lot of data&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="51" vertex="1" connectable="0">
                     <mxGeometry x="-0.2543" y="-1" relative="1" as="geometry">
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="152" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;flowAnimation=1;" edge="1" parent="1" source="156" target="99">
+                <mxCell id="152" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;flowAnimation=1;" parent="1" source="156" target="99" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="175" style="edgeStyle=none;html=1;exitX=-0.007;exitY=0.043;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;flowAnimation=0;" edge="1" parent="1" source="42" target="176">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1200" y="1450" as="targetPoint"/>
+                    </mxGeometry>
                 </mxCell>
                 <mxCell id="42" value="Multples schemas(table/collection)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#ffcccc;strokeColor=#36393d;" parent="1" vertex="1">
                     <mxGeometry x="1250" y="1410" width="400" height="290" as="geometry">
                         <mxRectangle x="888" y="840" width="130" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="43" value="" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="42" vertex="1">
+                <mxCell id="163" value="Collection/table may exist with same name, using case-sensitive names (if permitted)" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="42">
                     <mxGeometry y="30" width="400" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="71" value="CRUD operations on table or collection schema⬇️" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="42" vertex="1">
@@ -165,15 +173,33 @@
                 <mxCell id="107" value="&lt;ol&gt;&lt;li&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Create schema with datatypes and validataions&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;see all the table/collection in a database or see the schema structure of our table/collections&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;update schema of our table/collection like datatypes/validataions of property, or names of row and columns&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Delete full table/collection, and delete all or specific property of schema validations&lt;/font&gt;&lt;/li&gt;&lt;/ol&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="42" vertex="1">
                     <mxGeometry y="100" width="400" height="150" as="geometry"/>
                 </mxCell>
-                <mxCell id="156" value="A user may have full or limited, CURD &lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(0, 127, 255));&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;permissions&lt;/font&gt;&lt;/span&gt; on specific collection/table" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="42">
+                <mxCell id="156" value="A user may have full or limited, CURD &lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(0, 127, 255));&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;permissions&lt;/font&gt;&lt;/span&gt; on specific collection/table" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="42" vertex="1">
                     <mxGeometry y="250" width="400" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="176" value="more detail on schema" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#ffcccc;strokeColor=#36393d;" vertex="1" parent="1">
+                    <mxGeometry x="800" y="1510" width="400" height="70" as="geometry">
+                        <mxRectangle x="888" y="840" width="130" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="177" value="Refer types and reges" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="176">
+                    <mxGeometry y="30" width="400" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="164" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;flowAnimation=1;" edge="1" parent="1" source="49" target="170">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1580" y="2260" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="165" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;to keep our&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;data organized&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;and consistent&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="164">
+                    <mxGeometry x="0.0447" y="4" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
                 </mxCell>
                 <mxCell id="49" value="Multples Data" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#ffcc99;strokeColor=#36393d;" parent="1" vertex="1">
                     <mxGeometry x="1390" y="1860" width="380" height="280" as="geometry">
-                        <mxRectangle x="698" y="530" width="130" height="30" as="alternateBounds"/>
+                        <mxRectangle x="1390" y="1860" width="130" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="50" value="" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="49" vertex="1">
+                <mxCell id="50" value="Property/col name may exist with same name using case-sensitive (if permitted)" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="49" vertex="1">
                     <mxGeometry y="30" width="380" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="67" value="CRUD operations on data of table or collections⬇️" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="49" vertex="1">
@@ -182,7 +208,7 @@
                 <mxCell id="108" value="&lt;ol&gt;&lt;li&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;Add the data in the table/collection in any order&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Read all data in any order based on any propety&amp;nbsp; or in batches or read specific data with specific property or with specific filter using &quot;and&quot;, &quot;or&quot;, &quot;not&quot; operators.&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Update all data or specific data based on any specific filter&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Delete whole data or specific data&lt;/font&gt;&lt;/li&gt;&lt;/ol&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="49" vertex="1">
                     <mxGeometry y="100" width="380" height="140" as="geometry"/>
                 </mxCell>
-                <mxCell id="161" value="A user may have limited, CURD &lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(0, 127, 255));&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;permissions&lt;/font&gt;&lt;/span&gt; on specific data in a table/collection (if possible)" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="49">
+                <mxCell id="161" value="A user may have limited, CURD &lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(0, 127, 255));&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;permissions&lt;/font&gt;&lt;/span&gt; on specific data in a table/collection (if supported)" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="49" vertex="1">
                     <mxGeometry y="240" width="380" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="21" value="Non-relational (NoSQL)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" parent="1" vertex="1">
@@ -199,20 +225,20 @@
                 <mxCell id="27" value="&lt;p style=&quot;white-space-collapse: preserve;&quot; dir=&quot;auto&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Horizontal scaling (many cheap servers)&lt;/font&gt;&lt;/p&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="21" vertex="1">
                     <mxGeometry y="150" width="360" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="33" value="Database specific" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#eeeeee;strokeColor=#36393d;" parent="1" vertex="1">
-                    <mxGeometry x="760" y="290" width="330" height="80" as="geometry">
+                <mxCell id="33" value="Database specific" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#f5f5f5;strokeColor=#666666;gradientColor=#b3b3b3;" parent="1" vertex="1">
+                    <mxGeometry x="810" y="270" width="380" height="80" as="geometry">
                         <mxRectangle x="790" y="270" width="130" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="34" value="&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Fundamentals that are specific to some specific database only&lt;/font&gt;&lt;/div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Created sperate folders for different databases too&lt;/font&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="33" vertex="1">
-                    <mxGeometry y="30" width="330" height="50" as="geometry"/>
+                    <mxGeometry y="30" width="380" height="50" as="geometry"/>
                 </mxCell>
                 <mxCell id="132" value="Database engineering" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-                    <mxGeometry x="1325" y="210" width="330" height="110" as="geometry">
+                    <mxGeometry x="-620" y="1890" width="330" height="110" as="geometry">
                         <mxRectangle x="790" y="270" width="130" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="133" value="1. how the document is stored in database, formats, compression type database uses" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="132" vertex="1">
+                <mxCell id="133" value="1. how the document/data is stored in database, formats, compression type database uses" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="132" vertex="1">
                     <mxGeometry y="30" width="330" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="135" value="&lt;font face=&quot;Google Sans Flex, Google Sans, Helvetica Neue, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 13px; font-variant-ligatures: none;&quot;&gt;3.&amp;nbsp;&lt;/span&gt;&lt;/font&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="132" vertex="1">
@@ -237,7 +263,7 @@
                 <mxCell id="38" value="1.&amp;nbsp; Shell are client only, to access DB server via CLI/Terminal" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="37" vertex="1">
                     <mxGeometry y="30" width="300" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="99" value="authencations" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" parent="1" vertex="1">
+                <mxCell id="99" value="database authencations" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" parent="1" vertex="1">
                     <mxGeometry x="1815" y="1030" width="410" height="110" as="geometry">
                         <mxRectangle x="1830" y="1085" width="130" height="30" as="alternateBounds"/>
                     </mxGeometry>
@@ -245,30 +271,36 @@
                 <mxCell id="100" value="for more and detail understanding refer &lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(204, 0, 204));&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;auth.svg&lt;/font&gt;&lt;/span&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="99" vertex="1">
                     <mxGeometry y="30" width="410" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="153" value="1. A user can have access to any of these resources specifically, with full or limited actions on these resources/assets" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="99">
+                <mxCell id="153" value="1. A user can have access to any of these resources specifically, with full or limited actions on these resources/assets" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="99" vertex="1">
                     <mxGeometry y="70" width="410" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="146" value="Limitations" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-                    <mxGeometry x="980" y="2180" width="410" height="150" as="geometry">
+                <mxCell id="146" value="Limitations" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+                    <mxGeometry x="-170" y="2080" width="410" height="150" as="geometry">
                         <mxRectangle x="790" y="270" width="130" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="147" value="1. size of per block or property" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="146">
+                <mxCell id="147" value="1. size of per block or property" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="146" vertex="1">
                     <mxGeometry y="30" width="410" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="148" value="2. write per second" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="146">
+                <mxCell id="148" value="2. write per second" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="146" vertex="1">
                     <mxGeometry y="70" width="410" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="149" value="3. database per server, collections in one database" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="146">
+                <mxCell id="149" value="3. database per server, collections in one database" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="146" vertex="1">
                     <mxGeometry y="110" width="410" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="141" style="edgeStyle=none;html=1;exitX=0.456;exitY=1.064;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitPerimeter=0;" parent="1" source="131" target="142" edge="1">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="2050" y="1620" as="targetPoint"/>
+                <mxCell id="166" value="Data linking" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="1110" y="2445" width="410" height="110" as="geometry">
+                        <mxRectangle x="790" y="270" width="130" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
+                <mxCell id="167" value="1. A primary key to uniquely identify each data in table/collection" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="166">
+                    <mxGeometry y="30" width="410" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="168" value="2. Linking on data with its another related data. this can be done either by data &lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(0, 101, 255));&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;reference &lt;/font&gt;&lt;/span&gt;id or &lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(0, 101, 255));&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;embedding &lt;/font&gt;&lt;/span&gt;full data itselt" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="166">
+                    <mxGeometry y="70" width="410" height="40" as="geometry"/>
+                </mxCell>
                 <mxCell id="126" value="ACID properties" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-                    <mxGeometry x="1800" y="2180" width="410" height="230" as="geometry">
+                    <mxGeometry x="1780" y="2430" width="410" height="230" as="geometry">
                         <mxRectangle x="790" y="270" width="130" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
@@ -288,7 +320,7 @@
                     <mxGeometry y="190" width="410" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="109" value="&lt;b&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;practicals to do in databases&lt;/font&gt;&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=light-dark(#FFFFFF,#FF0000);" parent="1" vertex="1">
-                    <mxGeometry x="500" y="2070" width="410" height="110" as="geometry">
+                    <mxGeometry x="540" y="1900" width="410" height="110" as="geometry">
                         <mxRectangle x="790" y="270" width="130" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
@@ -351,38 +383,31 @@
                 <mxCell id="20" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;flowAnimation=1;" parent="1" source="3" target="19" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="117" value="same name col and database&lt;div&gt;cannot exists&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=default;fillColor=none;" parent="1" vertex="1">
-                    <mxGeometry x="760" y="1170" width="180" height="40" as="geometry"/>
-                </mxCell>
                 <mxCell id="118" value="find data with invalid schema" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=default;fillColor=none;" parent="1" vertex="1">
-                    <mxGeometry x="740" y="1320" width="180" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="119" value="Database case sentivity, for both&amp;nbsp;&lt;div&gt;data property, and database and schmea&lt;/div&gt;&lt;div&gt;(for creating and fetching check this)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=default;fillColor=none;" parent="1" vertex="1">
-                    <mxGeometry x="725" y="1235" width="240" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="120" value="upset, insert order(multiple insertion error handling)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=default;fillColor=none;" parent="1" vertex="1">
-                    <mxGeometry x="690" y="1360" width="300" height="30" as="geometry"/>
+                    <mxGeometry x="610" y="2430" width="180" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="136" value="exporting data for specific database, for specific schema and some specific data property and can be based on specific filter" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="700" y="1420" width="290" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="134" value="2. embedding vs reference (data linking)" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="1" vertex="1">
-                    <mxGeometry x="690" y="1110" width="330" height="40" as="geometry"/>
-                </mxCell>
-                <mxCell id="139" value="unique property" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="770" y="1040" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="560" y="2495" width="290" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="140" value="middleware for different actions for both before and after" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="737.5" y="1590" width="225" height="60" as="geometry"/>
+                    <mxGeometry x="600" y="2600" width="225" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="142" value="concurrency/ transaction" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="1990" y="2490" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="150" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.003;entryY=0.108;entryDx=0;entryDy=0;entryPerimeter=0;flowAnimation=1;" edge="1" parent="1" source="157" target="99">
+                <mxCell id="150" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.003;entryY=0.108;entryDx=0;entryDy=0;entryPerimeter=0;flowAnimation=1;" parent="1" source="157" target="99" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="162" value="rls" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="750" y="1690" width="230" height="80" as="geometry"/>
+                <mxCell id="171" style="edgeStyle=none;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;flowAnimation=1;" edge="1" parent="1" source="170" target="166">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="172" style="edgeStyle=none;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;flowAnimation=1;" edge="1" parent="1" source="170" target="126">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="173" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;for concurrent&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;transactions&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="172">
+                    <mxGeometry x="-0.1637" y="3" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="170" value="" style="shape=ellipse;fillColor=light-dark(#0065FF,#FFFFFF);strokeColor=none;html=1;sketch=0;" vertex="1" parent="1">
+                    <mxGeometry x="1567.5" y="2290" width="25" height="20" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
