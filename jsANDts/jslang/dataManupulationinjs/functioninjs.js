@@ -88,6 +88,22 @@ const myFunction = function () {
     console.log("This is an IIFE arrow function");
 })();
 
+// **🎯 factory functions**
+// A factory function is a function that returns a new object. It is a way to create multiple instances of an object without using classes.
+function createPerson(name, age) {
+    return {
+        name: name,
+        age: age,
+        greet: function () {
+            console.log(`Hello, my name is ${this.name} and I am ${this.age} years old.`);
+        }
+    };
+}
+const person1 = createPerson("Alice", 30);
+const person2 = createPerson("Bob", 25);
+person1.greet(); // Hello, my name is Alice and I am 30 years old.
+person2.greet(); // Hello, my name is Bob and I am 25 years old.
+
 
 //🎯 async Functions=============
 // async always returns a response wrapped in a Promise
