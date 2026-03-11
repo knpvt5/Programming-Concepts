@@ -35,7 +35,9 @@ obj.greet(); // Logs: "Hello, karan"
 function show() {
   console.log(this);
 }
-show(); // In non-strict mode, logs the global object; in strict mode, logs undefined
+show(); // In non-strict mode, logs the global/window object; in strict mode, logs undefined
+
+new show(); //    in constructor function , when we call function with new keyword, it alway creates new object and then retruns the new object, now this keyword in constructor function refer this return object
 ```
 
 ## **Arrow Functions**
