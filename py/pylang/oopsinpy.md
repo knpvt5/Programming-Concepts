@@ -99,7 +99,6 @@ print(u._User__password)  # ✅ Hack: works via name mangling, this is because p
 ### **`Self`** keyword in py: - _self when Used inside instance methods to refer to the current object._
 
 - In Python, every instance method must accept the instance as its first argument (conventionally named `self`), because Python automatically passes the current object when the method is invoked.
-```
 
 - Python is explicit: nothing is hidden. we write self always in the method signature **(method signature is combined Method name, Parameter types (and sometimes parameter count) and Parameter order).**
 
@@ -110,7 +109,6 @@ Types of constructors: - **Python provides a default constructor that takes no a
 1. **No-Arg/parameterless Constructor: -** _This is defualt in python, without pydantic_
 
 2. **All arg Constructor: -** _This is defualt in python pydantic(BaseModel) class(generally it is sub-class of baseModel)_
-
    - We **generally inherit this pydantic BaseModel, while creating the python class**, and then this **subclass** of pydantic baseModel is called pydantic model
 
 3. **semi-Parameterized Constructor: -**

@@ -10,6 +10,8 @@
 
 ```js
 console.log(this); // In a browser, logs the Window object
+
+this = window //true
 ```
 
 ## **Function Context**
@@ -29,7 +31,41 @@ const obj = {
 obj.greet(); // Logs: "Hello, karan"
 ```
 
+```js
+const user = {
+  firstName: "karan",
+  lastName: "don",
+  fullName() {
+    function getAge() {
+      console.log("Getting Age");
+      console.log(this);
+    }
+    getAge();
+  },
+};
+
+user.fullName();
+
+//here the this in getAge, again point to window, becuase it is called inside funciton and not in object directly
+```
+
 - If a function is called without an object context, `this` refers to the global object (or `undefined` in strict mode).
+
+```js
+const user = {
+  name: "karan",
+  nums: [1, 2, 3],
+  print() {
+    this.nums.forEach(function (n) {
+      console.log(this.name, n);
+    }, this); // thisArg
+  },
+};
+
+user.print();
+
+// In array method like foreach, we have to explicitly make the 'this' to point to the object where this array is been used. bydefualt is points to window object
+```
 
 ```js
 function show() {
@@ -57,6 +93,8 @@ const obj = {
 
 obj.greet(); // Logs: "Hello, karan" after 1 second
 ```
+
+JavaScript’s this is contextual and sometimes confusing - that's why arrow functions were introduced (they bind this lexically)
 
 ## **Explicit Binding**
 
