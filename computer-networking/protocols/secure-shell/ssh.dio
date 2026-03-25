@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="TH60-l7gWez-SKzbwlCd" name="Page-1">
-        <mxGraphModel dx="2236" dy="1727" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+        <mxGraphModel dx="1806" dy="1605" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -152,7 +152,7 @@
                 <mxCell id="287" value="5. Can specify the bits using &lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(204, 0, 204));&quot;&gt;-b flag&lt;/span&gt; when creating RSA algo ssh keys -&amp;gt; larger bits more secure but slower. ed25519 has fixed 256 bits" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="244" vertex="1">
                     <mxGeometry y="290" width="310" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="298" value="6. Can change the ssh-key format of existing key -i flag for openSSH format conversion and &lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(204, 0, 204));&quot;&gt;-e flag&lt;/span&gt; for RFC4716/SECSH format conversion" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="244" vertex="1">
+                <mxCell id="298" value="6. Can change the ssh-key format of existing key using&amp;nbsp;&lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(204, 0, 204));&quot;&gt;-i flag&lt;/span&gt; for import and &lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(204, 0, 204));&quot;&gt;-e flag&lt;/span&gt; for export and &lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(204, 0, 204));&quot;&gt;-m flag&lt;/span&gt; to specify format" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="244" vertex="1">
                     <mxGeometry y="350" width="310" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="254" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;flowAnimation=1;" parent="1" source="249" target="239" edge="1">
@@ -282,18 +282,18 @@
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="292" value="SSH key format" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;" parent="1" vertex="1">
-                    <mxGeometry x="274.38" y="650" width="311.24" height="210" as="geometry">
+                    <mxGeometry x="274.38" y="650" width="311.24" height="220" as="geometry">
                         <mxRectangle x="295" y="700" width="100" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="293" value="1. OpenSSH format: - this is most common format used today, native for linux.unix macOS and in window 10/11.&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Uses standard OpenSSH format, extension if often .pem (optional, legacy) SSH format and no extension&lt;/font&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="292" vertex="1">
-                    <mxGeometry y="30" width="311.24" height="80" as="geometry"/>
+                <mxCell id="293" value="1. OpenSSH format: - this is most common format used today, native for linux.unix macOS and in window 10/11.&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Modern OpenSSH format has no extension,&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;and .pem is OpenSSL format public key, and in SSH .pem format is legacy&lt;/font&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="292" vertex="1">
+                    <mxGeometry y="30" width="311.24" height="90" as="geometry"/>
                 </mxCell>
                 <mxCell id="294" value="2. puTTY format: - user friendly GUI tool for window.&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Uses PPK &lt;span style=&quot;&quot; class=&quot;token&quot;&gt;(&lt;/span&gt;PuTTY Private Key&lt;span style=&quot;&quot; class=&quot;token&quot;&gt;)&lt;/span&gt; format. extension is .ppk&lt;/font&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="292" vertex="1">
-                    <mxGeometry y="110" width="311.24" height="50" as="geometry"/>
+                    <mxGeometry y="120" width="311.24" height="50" as="geometry"/>
                 </mxCell>
                 <mxCell id="296" value="3.&amp;nbsp;RFC4716/SECSH Format: - Used by SSH2 protocol standard&lt;div&gt;Extension is .pub, .ssh2 only for public key&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="292" vertex="1">
-                    <mxGeometry y="160" width="311.24" height="50" as="geometry"/>
+                    <mxGeometry y="170" width="311.24" height="50" as="geometry"/>
                 </mxCell>
                 <mxCell id="48" style="edgeStyle=none;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;flowAnimation=1;" parent="1" source="244" target="52" edge="1">
                     <mxGeometry relative="1" as="geometry">

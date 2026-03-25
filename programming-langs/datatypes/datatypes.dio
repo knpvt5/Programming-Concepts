@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="YwGT1-Ot-sYUl8RTLkUt" name="Page-1">
-        <mxGraphModel dx="1997" dy="1725" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+        <mxGraphModel dx="2236" dy="1832" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -142,6 +142,9 @@
                 </mxCell>
                 <mxCell id="39" value="memory size used by&lt;div&gt;each datatypes&amp;nbsp;&lt;/div&gt;&lt;div&gt;varies based on PL&lt;sup&gt;1&lt;/sup&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="-130" y="650" width="150" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="50" value="CRUD operation of all type of datatype for both value and memory pointer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="215" y="790" width="260" height="90" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
